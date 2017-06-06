@@ -1,7 +1,7 @@
 # hearthstone-trivia-bot
-Small TwitchBot that plays a trivia game with Hearthstone cards
+A small TwitchBot that plays a trivia game with Hearthstone cards
 #### How it Works
-The game only selects playable Minions from Hearthstones current decks and expansions. The bot then selects a random expansion series to draw cards from and then a random card from that series. The bot will give hints about that card till the timer for answering the question expires. The first user to answer the question will be deemed winner. If any user fails to answer the question in time the game will end. *Note:* Although capitalization is not required, punctuation such as apostrophes are required. 
+The game only selects playable Minions from Hearthstones current decks and expansions. The bot then selects a random expansion series to draw cards from and then a random card from that series. The bot will give hints about that card till the timer for answering the question expires. The first user to answer the question will be deemed winner. If any user fails to answer the question in time the game will end. *Note: Although capitalization is not required, punctuation such as apostrophes are required.*
 #### Commands
 !update - updates current list of cards and saves a new local json file of the newly created decks
 !start - starts a new game of trivia
