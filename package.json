@@ -1,0 +1,23 @@
+{
+  "name": "hearthstone-twitch-trivia",
+  "version": "1.0.0",
+  "description": "Play a game of Hearthstone Trivia in your own twitch chat.",
+  "main": "trivia.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hearthstone",
+    "gaming",
+    "blizzard",
+    "trivia"
+  ],
+  "author": "Asante",
+  "license": "MIT",
+  "dependencies": {
+    "jsonfile": "^3.0.0",
+    "memory-cache": "^0.1.6",
+    "node-twitchbot": "^2.0.4",
+    "unirest": "^0.5.1"
+  }
+}
