@@ -106,7 +106,7 @@ Bot.connect()
                   }
                   if (trivia_card.text.includes('<i>')){
                     trivia_card.text = trivia_card.text.replace('<i>', '')
-                    trivia_card.text = trivia_card.text.replace('</I>', '')
+                    trivia_card.text = trivia_card.text.replace('</i>', '')
                   }
                   if (trivia_card.text.includes('[x]')){
                     trivia_card.text = trivia_card.text.replace('[x]', '')
